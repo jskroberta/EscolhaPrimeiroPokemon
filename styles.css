@@ -1,0 +1,65 @@
+header {
+    background-image: url(logo.jpg);
+}
+
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: 115%;
+    box-sizing: border-box;
+}
+.div-container{
+    display: grid;
+    align-items: center; 
+    position: relative;
+    top: 140px;  
+    gap: 1em;
+
+}
+
+.pokemonTotal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 80px);
+    justify-items: center;
+    align-items: end;
+    margin-top: 50px;
+    gap: 5em;
+  
+       
+}
+
+.pokemonTotal2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 100px);
+    justify-items: center;
+    align-items: end;
+    margin-top: 120px;
+    gap: 5em;
+    
+}
+
+p {
+    width: 100px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.contIndividual {
+    border-radius: 10px;
+    background: linear-gradient(to top,#b22dc2,transparent);
+    padding: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
