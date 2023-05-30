@@ -11,48 +11,27 @@ body {
 }
 .div-container{
     display: grid;
-    align-items: center; 
-    position: relative;
-    top: 140px;  
-    gap: 1em;
-
-}
-
-.pokemonTotal {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(1, 80px);
+    grid-template-columns: repeat(3, auto);
+	grid-template-rows: repeat(2, 250px);
     justify-items: center;
-    align-items: end;
-    margin-top: 50px;
-    gap: 5em;
-  
-       
-}
-
-.pokemonTotal2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 100px);
-    justify-items: center;
-    align-items: end;
-    margin-top: 120px;
-    gap: 5em;
+    margin-top: 100px; 
+    row-gap: 50px;
     
-}
-
-p {
-    width: 100px;
-    margin: 0;
-    text-align: center;
     
+   
 }
 
 .contIndividual {
     border-radius: 10px;
-    background: linear-gradient(to top,#b22dc2,transparent);
-    padding: 30px;
-    
+    background: linear-gradient(to top,#b22dc2 , transparent);
+    width: 270px;
+    text-align: center;
+   
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
 }
 
 
