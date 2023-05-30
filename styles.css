@@ -1,35 +1,53 @@
 header {
-    background-image: url(logo.jpg);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 50px; 
+    border-radius: 30px;
+    background: rgba(243, 237, 237, 0.479);
+    backdrop-filter: blur(30px);
+
 }
 
 body {
+    
     background-image: url(background.png);
     background-repeat: no-repeat;
-    width: 100vw;
+    background-size: auto;
+    padding: 0;
     background-size: 115%;
     box-sizing: border-box;
 }
+
 .div-container{
     display: grid;
     grid-template-columns: repeat(3, auto);
 	grid-template-rows: repeat(2, 250px);
     justify-items: center;
-    margin-top: 100px; 
+    margin: 30px auto; 
     row-gap: 50px;
-    
-    
    
 }
 
 .contIndividual {
     border-radius: 10px;
     background: linear-gradient(to top,#b22dc2 , transparent);
-    width: 270px;
+    width: 230px;
     text-align: center;
+    position: relative;
+   
+}
+
+.contIndividual:hover {
+    width: 270px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
    
 }
 
 p {
+    display: block;
     text-align: center;
     font-size: 17px;
 }
