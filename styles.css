@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Open+Sans&display=swap');
+
+
 header {
     display: flex;
     justify-content: center;
@@ -6,11 +9,19 @@ header {
     border-radius: 30px;
     background: rgba(243, 237, 237, 0.479);
     backdrop-filter: blur(30px);
-
+    font-size: 40px;
+    font-family: 'Monomaniac One', sem serifa;
+   
+    
+   }
+.miniPikachu {
+    
+    display: flex;
+    justify-content: end;
+    width: 60px;
 }
 
 body {
-    
     background-image: url(background.png);
     background-repeat: no-repeat;
     background-size: auto;
@@ -32,24 +43,32 @@ body {
 .contIndividual {
     border-radius: 10px;
     background: linear-gradient(to top,#b22dc2 , transparent);
-    width: 230px;
+    width: 250px;
     text-align: center;
     position: relative;
    
 }
 
 .contIndividual:hover {
-    width: 270px;
     background-color: white;
     text-align: center;
     cursor: pointer;
    
 }
 
+.classP {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
 p {
     display: block;
-    text-align: center;
+    text-align: start;
     font-size: 17px;
+    margin: 8px;
+    
 }
 
 
